@@ -16,7 +16,7 @@ router.get('/:id',async(req, res)=>{
     res.status(400).json({msg:e})
   }
 });
-
+////
 //post data api
 router.post('/',async(req, res)=>{
   const newPost = new Posts(req.body);
